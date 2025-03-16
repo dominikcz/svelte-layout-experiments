@@ -1,10 +1,4 @@
-<script lang="ts">
-	import type { Snippet } from "svelte";
-
-	interface LayoutProps {
-		children?: Snippet;
-	}
-	let { children }: LayoutProps = $props();
+<script>
 </script>
 
 <div>
@@ -14,7 +8,7 @@
 		<a href="/page3/">page 3</a>
 	</nav>
 	<main>
-		{@render children?.()}
+		<slot />
 	</main>
 	<aside>
 
