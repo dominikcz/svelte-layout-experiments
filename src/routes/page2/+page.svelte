@@ -4,7 +4,7 @@
 </script>
 
 <h1>This is Page 2</h1>
-<MyComponent />
+<MyComponent val="- 2 -" />
 
 <div use:teleport={'aside'}>
     <h2>2</h2>
