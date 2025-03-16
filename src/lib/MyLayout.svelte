@@ -11,27 +11,34 @@
     <main>
         <slot />
     </main>
+    
+	<aside>
+	</aside>
 </div>
 
 <style>
-    div{
-        background-color: rebeccapurple;
-        display: flex;
-        flex-flow: row nowrap;
-        padding: 1rem;
-        justify-items: stretch;
-    }
-    nav{
-        background-color: tomato;
-        display: flex;
-        flex-flow: column nowrap;
-        gap: 1rem;
-        padding: 1rem;
-
-    }
-    main{
-        background-color: gold;
-        flex-grow: 1;
-        padding: 1rem;
-    }
+	div {
+		background-color: rebeccapurple;
+		display: flex;
+		flex-flow: row nowrap;
+		padding: 1rem;
+		justify-items: stretch;
+	}
+	nav {
+		background-color: tomato;
+		display: flex;
+		flex-flow: column nowrap;
+		gap: 1rem;
+		padding: 1rem;
+	}
+	main {
+		background-color: gold;
+		flex-grow: 1;
+		padding: 1rem;
+	}
+	aside{
+		background-color: silver;
+		width: 200px;
+		text-align: center;
+	}
 </style>
