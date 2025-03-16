@@ -16,6 +16,9 @@
 	<main>
 		{@render children?.()}
 	</main>
+	<aside>
+
+	</aside>
 </div>
 
 <style>
@@ -37,5 +40,10 @@
 		background-color: gold;
 		flex-grow: 1;
 		padding: 1rem;
+	}
+	aside{
+		background-color: silver;
+		width: 200px;
+		text-align: center;
 	}
 </style>
