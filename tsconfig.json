@@ -11,8 +11,6 @@
 		"strict": true,
 		"moduleResolution": "bundler",
 		// workaround for sveltekit https://github.com/sveltejs/kit/issues/8650
-		"preserveValueImports": false,
-		"importsNotUsedAsValues": "remove",
 		"verbatimModuleSyntax": true,
 		"types": [
 			"@modyfi/vite-plugin-yaml/modules"
